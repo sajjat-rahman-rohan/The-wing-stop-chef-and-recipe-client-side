@@ -1,0 +1,25 @@
+.reg-form {
+  background-color: #f6f6f6;
+  padding: 20px 0px 100px;
+}
+
+.form {
+  background-color: white;
+  padding: 20px 30px;
+  border-radius: 8px;
+  border: 1px solid #d8d8da;
+}
+
+.reg-btn {
+  width: 100%;
+}
+
+.pws-btn {
+  position: relative;
+}
+
+.show-hide {
+  position: absolute;
+  top: 8px;
+  right: 15px;
+}

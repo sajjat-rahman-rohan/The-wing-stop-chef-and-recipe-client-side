@@ -1,0 +1,17 @@
+.get-con {
+  background-color: rgb(245, 245, 245);
+  padding: 50px;
+}
+
+.get-con ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 320px) {
+  .get-con {
+    padding: 20px;
+  }
+}

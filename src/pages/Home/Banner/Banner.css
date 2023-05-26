@@ -1,0 +1,66 @@
+.banner-con {
+  /* height: calc(100vh - 100px); */
+  padding: 65px 0px;
+}
+
+.banner-con .short-separator {
+  width: 70px;
+  height: 3px;
+  background: #6ebe3b;
+  margin: auto;
+}
+
+.banner-con .banner-box {
+  background-color: #fff;
+  padding: 20px;
+}
+.banner-con .banner-box-wrap {
+  padding: 80px 30px;
+  border: 1px solid rgb(193, 166, 104);
+}
+
+.banner-con button {
+  padding: 6px 25px;
+}
+
+.swiper-pagination {
+  margin-bottom: 10px;
+}
+.swiper-button-prev {
+  margin-left: 20px;
+  color: #ffffff;
+}
+.swiper-button-next {
+  margin-right: 20px;
+  color: #fff;
+}
+
+.banner-bg-1 {
+  background-image: url(../../../assets/banner1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-bg-2 {
+  background-image: url(../../../assets/banner2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-bg-3 {
+  background-image: url(../../../assets/banner3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 320px) {
+  .swiper-button-prev {
+    margin-left: 0px;
+    color: #0083cf;
+  }
+  .swiper-button-next {
+    margin-right: 0px;
+    color: #0083cf;
+  }
+}

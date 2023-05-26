@@ -1,0 +1,15 @@
+.food-btn {
+  padding: 10px 50px;
+  border: 1px solid #198754;
+  background: #198754;
+  border-radius: 25px;
+  font-size: 24px;
+  transition: 0.5s;
+  color: #fff;
+}
+
+@media screen and (max-width: 320px) {
+  .food-img img {
+    width: 100%;
+  }
+}
